@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #333;
+    color:#c0c0c0
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: larger;
+    padding:10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+header{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/07/sb-blog-programming.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    
+}
+
+
+.middle{
+    position :absolute;
+    top:50%;
+    left:50%;
+    font-size: xx-large;
+    text-align: end;
+}
+
+h1#blur{
+    align-content: flex-start;
+    text-align: start;
+    color:rgba(0, 255, 255, 0.062);
+
+}
+
+ #about{
+     height:100vh;
+ }
+
+.grid2{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 30px;
+}
+
+.grid2 h2{
+    padding:7px;
+    border:1px solid #c0c0c0;
+    width:600px;
+    text-decoration: underline;
+
+}
