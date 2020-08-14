@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:#082545;
+    background-color:#082745;
     color:#c0c0c0
 }
 
@@ -13,6 +13,7 @@ a{
     font-weight: 400;
     font-size: larger;
     padding:10px;
+    color:whitesmoke
 }
 
 a:hover{
@@ -59,6 +60,23 @@ h1#blur{
 
 }
 
+/* skill page */
+
+#skill{
+    background-color: teal;
+    height:100vh;
+}
+
+.projects{
+    width:45%;
+    Display:flex;
+    flex-direction: row;
+}
+
+.image>img{
+    width:80%;
+}
+
  div#about{
      height:100vh;
      
@@ -67,6 +85,8 @@ h1#blur{
  #me{
      width:80%;
      padding:10px 50px;
+     text-align:center;
+     font-size: larger;
  }
 .grid2{
     display:flex;
@@ -74,11 +94,11 @@ h1#blur{
     text-align: center;
     line-height: 30px;
     margin: 0 auto;
-    margin-top: 100px;;
+    margin-top: 60px;
 }
 
 .space{
-    background-color: navy;
+    
     margin:0 auto;
     padding:10px;
     padding-top:40px;
@@ -93,4 +113,8 @@ h1#blur{
 }
 ol li{
     list-style-type: none;
+}
+
+span{
+    font-weight: 600;
 }
