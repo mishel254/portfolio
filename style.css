@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:#082745;
+    background-color:#030D19;
     color:#c0c0c0
 }
 
@@ -31,9 +31,13 @@ nav a:active{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top:0;
+    bottom:92%;
+    left: 0;
+    right: 0;
     padding-top: 10px;
+    background-color: rgba(51, 51, 51, 0.356);
 }
 header{
     height: 100vh;
@@ -64,7 +68,7 @@ h1#blur{
 /* skill page */
 
 #skills{
-    background-color: teal;
+    /* background-color: #004E87; */
     height:100vh;
 }
 
@@ -73,14 +77,29 @@ h1#blur{
     flex-direction: row;
 }
 
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color:#2077A2;
+    text-shadow: 2px 2px #333;
+    text-decoration: underline;
+    font-size: xx-large;
+}
 .projects .one{
     width:540px;
-    height:500px;
-    /* box-shadow:2px 2px 2px 2px royalblue; */
-    border:2px solid red;
+    height:550px;
+     box-shadow:2px 2px 2px 2px #c0c0c0; 
     margin:10px auto;
-    
+}
 
+.one:hover{
+    width:580px;
+    height:590px;
+    box-shadow:2px 2px 5px 5px #c0c0c0b4; 
+}
+
+ul li{
+    list-style: none;
 }
 
 .image>img{
@@ -105,8 +124,10 @@ button:hover{
     background-color: sandybrown;
     text-decoration: none;
     font-size: small;
+    margin-top:10px;
     
 }
+/* About me section styling */
 
  div#about{
      height:100vh;
