@@ -17,8 +17,8 @@ a{
 }
 
 a:hover{
-    text-decoration: line-through red;
-    font-size: xx-large;
+    text-decoration: line-through cyan ;
+    font-size: larger;
     background-color: rgba(0, 255, 255, 0.062);
 }
 
@@ -33,6 +33,7 @@ nav a:active{
     justify-content: space-between;
     position: sticky;
     top:0;
+    padding-top: 10px;
 }
 header{
     height: 100vh;
@@ -62,19 +63,49 @@ h1#blur{
 
 /* skill page */
 
-#skill{
+#skills{
     background-color: teal;
     height:100vh;
 }
 
 .projects{
-    width:45%;
     Display:flex;
     flex-direction: row;
 }
 
+.projects .one{
+    width:540px;
+    height:500px;
+    /* box-shadow:2px 2px 2px 2px royalblue; */
+    border:2px solid red;
+    margin:10px auto;
+    
+
+}
+
 .image>img{
-    width:80%;
+    width:97%;
+    margin:10px;
+    margin:10 auto;
+}
+
+.projects .description{
+    margin:10px;
+    text-align: center;
+}
+
+button{
+    background-color: royalblue;
+    border:1px solid black;
+    border-radius: 4px;
+    padding:10px;
+}
+
+button:hover{
+    background-color: sandybrown;
+    text-decoration: none;
+    font-size: small;
+    
 }
 
  div#about{
