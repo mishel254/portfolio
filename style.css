@@ -167,3 +167,23 @@ ol li{
 span{
     font-weight: 600;
 }
+
+#contact{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding:10px;
+    text-align: center;
+    background-color: oldlace;
+    color:black;
+    
+}
+
+#contact div{
+    border-right:1px solid #333;
+}
+
+#contact div a{
+    color:navy
+
+}
+
