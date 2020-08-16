@@ -174,7 +174,8 @@ span{
     padding:10px;
     text-align: center;
     background-color: oldlace;
-    color:black;
+    color:rgba(0, 0, 0, 0.63);
+    font-size: large;
     
 }
 
@@ -183,7 +184,8 @@ span{
 }
 
 #contact div a{
-    color:navy
+    color:navy;
+    font-size:large;
 
 }
 
