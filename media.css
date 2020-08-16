@@ -34,14 +34,28 @@
         flex-direction: column;
     }
 
+    .reference{
+        margin-bottom:120px;
+        
+    }
+
 
     #contact{
         display:grid;
-         grid-template-columns: repeat(3, 1fr);
+         grid-template-rows: repeat(6, 1fr);
+         position:fixed;
+         top:20%;
+         bottom:0%;
+         left:88%;
     }
 
-    #contact div{
-        border-right:1px solid #333;
-        border-bottom:1px solid #333;
+    #contact div a i{
+        font-size: 24px;
+        text-align: center;
+    
+    }
+    
+    #contact div a:hover{
+        font-size: 28px;
     }
   }

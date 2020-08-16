@@ -43,6 +43,7 @@ header{
     height: 100vh;
     background-image: url('https://c1.wallpaperflare.com/preview/14/432/956/laptop-computer-dark-room.jpg');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     color:black;
     
@@ -138,8 +139,8 @@ button:hover{
      font-size: larger;
  }
 .grid2{
-    display:flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
     line-height: 30px;
     margin: 0 auto;
@@ -153,11 +154,13 @@ button:hover{
     padding-top:40px;
 }
 
-.grid2 h2{
+.grid2 div h2{
     padding:7px;
     border-bottom:3px solid #c0c0c0;
     width:400px;
     text-decoration: underline;
+    text-align: center;
+    margin: 10px auto;
 
 }
 ol li{
@@ -170,20 +173,29 @@ span{
 
 #contact{
     display:grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     padding:10px;
     text-align: center;
-    background-color: oldlace;
+    background-color: rgba(253, 245, 230, 0.089);
     color:rgba(0, 0, 0, 0.63);
     font-size: large;
-   /*  position: sticky;
-    top:97%;
-    bottom: 0; */
+    position: fixed;
+    top:15%;
+    bottom: 0;
+    left:94%;
+    
+    
     
 }
 
-#contact div{
-    border-right:1px solid #333;
+#contact div a i{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+#contact div a:hover{
+    font-size: 40px;
 }
 
 #contact div a{
