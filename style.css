@@ -41,9 +41,8 @@ nav a:active{
 }
 header{
     height: 100vh;
-    background-image: url('https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/07/sb-blog-programming.png');
+    background-image: url('https://c1.wallpaperflare.com/preview/14/432/956/laptop-computer-dark-room.jpg');
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     color:black;
     
@@ -53,7 +52,7 @@ header{
 .middle{
     position :absolute;
     top:50%;
-    left:50%;
+    left:5%;
     font-size: xx-large;
     text-align: end;
 }
@@ -72,6 +71,7 @@ h1#blur{
 .projects{
     Display:flex;
     flex-direction: row;
+    width:100vw;
 }
 
 .heading{
@@ -83,9 +83,9 @@ h1#blur{
     font-size: xx-large;
 }
 .projects .one{
-    width:540px;
-    height:550px;
-     box-shadow:2px 2px 2px 2px #c0c0c0; 
+    width:47%;
+    height:100%;
+    box-shadow:2px 2px 2px 2px #c0c0c0; 
     margin:10px auto;
 }
 
@@ -176,6 +176,9 @@ span{
     background-color: oldlace;
     color:rgba(0, 0, 0, 0.63);
     font-size: large;
+   /*  position: sticky;
+    top:97%;
+    bottom: 0; */
     
 }
 
@@ -188,4 +191,7 @@ span{
     font-size:large;
 
 }
+
+
+
 
